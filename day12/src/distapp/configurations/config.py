@@ -12,3 +12,4 @@ class Config:
         self.uniform_path = os.getenv('uniform_path')
         self.bernoulli_path = os.getenv('bernoulli_path')
         self.binomial_path = os.getenv('binomial_path')
+        self.poisson_path = os.getenv('poisson_path')
