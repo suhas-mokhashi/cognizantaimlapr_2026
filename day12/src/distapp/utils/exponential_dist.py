@@ -15,12 +15,13 @@ def create_exponential_distribution():
     #fit exponential distribution to data
     loc, scale = expon.fit(population)
     #generate random numbers from exponential distribution
-    random_numbers = expon.rvs(loc=loc, scale=scale, size=1000)
+    random_numbers = expon.rvs(loc=loc, scale=scale, size=100)
     return random_numbers,t,population
 
 def draw_exponential_distribution(random_numbers,t,population):
     plt.figure(figsize=(10, 6))    
     plt.plot(t, population, marker='o', linestyle='-', color='b')
+   
     plt.title('Exponential Distribution')
     plt.xlabel('year')
     plt.ylabel('Density')
