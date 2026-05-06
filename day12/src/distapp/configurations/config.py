@@ -13,3 +13,4 @@ class Config:
         self.bernoulli_path = os.getenv('bernoulli_path')
         self.binomial_path = os.getenv('binomial_path')
         self.poisson_path = os.getenv('poisson_path')
+        self.exponential_path = os.getenv('exponential_path')
