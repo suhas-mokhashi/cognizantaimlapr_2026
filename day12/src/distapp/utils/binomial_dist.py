@@ -2,6 +2,7 @@
 import pandas as pd
 from scipy.stats import binom
 from distapp.configurations.config import Config
+from matplotlib import pyplot as plt
 
 def create_binomial_distribution():
     config = Config()
@@ -15,10 +16,21 @@ def create_binomial_distribution():
     binomial_dist = binom(n=int(num_searches), p=conversion_rate)
     return binomial_dist,conversion_rate,num_searches
 
+def draw_binomial_distribution(binomial_dist, conversion_rate, num_searches):
+    #draw binomial distribution
+    x = range(0, int(num_searches)+1)
+    y = binomial_dist.pmf(x)
+    plt.bar(x, y)
+    plt.xlabel('Number of people bought the product')
+    plt.ylabel('Probability')
+    plt.title('Binomial Distribution of people bought the product')
+    plt.show()
+    
+
 if __name__ == "__main__":
     binomial_dist, conversion_rate, num_searches = create_binomial_distribution()
     #how many people bought the product in 10 searches
-    sample = binomial_dist.rvs(size=10)
+    sample = binomial_dist.rvs(size=50)
     print(sample)
-
+    draw_binomial_distribution(binomial_dist, conversion_rate, num_searches)
     
