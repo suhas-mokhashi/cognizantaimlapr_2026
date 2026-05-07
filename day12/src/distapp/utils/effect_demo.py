@@ -21,7 +21,7 @@ def calculate_effectiveness():
     n1 = len(group1)
     n2 = len(group2)
     pooled_std = (((n1 - 1) * std1 ** 2 + (n2 - 1) * std2 ** 2) / (n1 + n2 - 2)) ** 0.5
-    cohen_d = (mean1 - mean2) / pooled_std
+    cohen_d = -(mean1 - mean2) / pooled_std
     print("Cohen's d:", cohen_d)
 
 if __name__ == "__main__":
