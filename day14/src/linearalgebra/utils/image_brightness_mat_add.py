@@ -4,6 +4,9 @@ def add_brightness(image, brightness):
     #create brightness matrix
     brightness_matrix = np.ones(image.shape) * brightness
     print("Brightness Matrix:\n", brightness_matrix)
+    #add brightness matrix to image
+    brightened_image = image + brightness_matrix
+    return brightened_image.astype(np.uint8)
 
 #example usage
 if __name__ == "__main__":
@@ -14,4 +17,4 @@ if __name__ == "__main__":
                        [200, 255, 255]]], dtype=np.uint8)
     brightness = 50
     brightened_image = add_brightness(image, brightness)
-    
+    print("Brightened Image:\n", brightened_image)
