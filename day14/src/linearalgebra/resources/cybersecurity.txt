@@ -1,0 +1,105 @@
+Cyber Security Policy
+1. Purpose
+
+This Cyber Security Policy establishes the rules and guidelines for protecting organizational information systems, networks, devices, and data from unauthorized access, cyber threats, and security breaches.
+
+2. Scope
+
+This policy applies to:
+
+Employees
+Contractors
+Vendors
+Temporary staff
+Third-party users
+All IT assets including computers, servers, mobile devices, applications, cloud systems, and networks
+3. Information Security Objectives
+
+The organization aims to ensure:
+
+Confidentiality of information
+Integrity of data
+Availability of systems and services
+Protection against cyber threats
+Compliance with legal and regulatory requirements
+4. Password Policy
+Passwords must contain at least 12 characters.
+Passwords should include uppercase letters, lowercase letters, numbers, and special characters.
+Passwords must not be shared.
+Passwords should be changed every 90 days.
+Multi-factor authentication (MFA) must be enabled wherever possible.
+5. Access Control
+Users shall only access systems required for their job role.
+Administrative privileges must be limited and approved.
+User accounts must be disabled immediately after employee termination.
+Shared accounts are prohibited unless approved by IT Security.
+6. Acceptable Use Policy
+
+Users must:
+
+Use organizational systems only for authorized business purposes.
+Avoid downloading unauthorized software.
+Avoid accessing malicious or suspicious websites.
+Report suspicious emails or cyber incidents immediately.
+
+Users must not:
+
+Share confidential information without authorization.
+Disable antivirus or security controls.
+Install pirated software.
+Use company devices for illegal activities.
+7. Email Security
+Do not open suspicious attachments or links.
+Verify unknown senders before responding.
+Phishing emails must be reported to IT Security.
+Sensitive information should be encrypted before sending.
+8. Network Security
+Firewalls must be enabled on all systems.
+Public Wi-Fi should not be used without VPN protection.
+Network devices must use secure configurations.
+Regular vulnerability assessments must be performed.
+9. Endpoint Security
+Antivirus software must be installed and updated.
+Systems must receive regular security patches.
+USB storage devices should be restricted.
+Device encryption should be enabled on laptops and mobile devices.
+10. Data Protection
+Confidential data must be encrypted at rest and in transit.
+Regular backups must be maintained.
+Data retention and disposal must follow company standards.
+Personal and sensitive information must be protected according to privacy regulations.
+11. Incident Response
+
+Employees must immediately report:
+
+Malware infections
+Data breaches
+Lost or stolen devices
+Unauthorized access attempts
+Suspicious activity
+
+The IT Security team shall:
+
+Investigate incidents
+Contain threats
+Recover affected systems
+Document and report incidents
+12. Remote Work Security
+Employees must use secure VPN connections.
+Company-approved devices should be used for remote access.
+Screens must be locked when unattended.
+Sensitive information should not be accessed on public computers.
+13. Security Awareness Training
+Employees must complete annual cyber security training.
+Phishing simulation exercises may be conducted.
+Users should stay informed about emerging threats.
+14. Compliance
+
+Violations of this policy may result in:
+
+Disciplinary action
+Suspension of access privileges
+Legal action where applicable
+15. Review and Maintenance
+
+This policy shall be reviewed annually or whenever significant security changes occur.

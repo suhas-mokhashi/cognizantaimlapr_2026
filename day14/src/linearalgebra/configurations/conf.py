@@ -15,3 +15,4 @@ class Config:
     census_path = os.getenv('census_path')
     image_path = os.getenv('image_path')
     sales_path = os.getenv('sales_path')
+    cyber_path = os.getenv('cyber_path')
