@@ -25,3 +25,5 @@ if __name__ == "__main__":
     ratings_matrix = generate_random_ratings()
     print("Ratings Matrix:")
     print(ratings_matrix)
+    print("\nSentiment Analysis:")
+    sentiment_analysis(ratings_matrix)
