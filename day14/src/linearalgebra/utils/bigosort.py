@@ -4,11 +4,15 @@ from linearalgebra.configurations.conf import Config
 def bigosort(url):
    #get the api response from the url
    response = requests.get(url)
+   body_data = []
     #check if the response is successful
    if response.status_code == 200:
         posts = response.json()
-        #sort the posts by the number of likes using bigosort algorithm
-        return posts
+        #separate body key from posts json and append the values to body_data list
+        for post in posts:
+            body_data.append(post['body'])
+        
+        return body_data
    else:
         print("Failed to fetch posts")
         return []
