@@ -22,7 +22,8 @@ class CustomerServiceImpl(CustomerService):
         
         self.customers = self.customer_repository.get_all_customers() 
         #create pandas dataframe from customer data
-        self.df = pd.DataFrame([customer.__dict__ for customer in self.customers])
+        self.df = pd.DataFrame([customer.__dict__ for customer in self.customers]
+                               ,columns=["id","first_name","last_name","email","password","created_at","updated_at"])
         print(self.df.head())
         #check point schema validation for customer data
 
