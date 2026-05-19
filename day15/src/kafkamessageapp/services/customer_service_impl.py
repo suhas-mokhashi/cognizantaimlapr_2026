@@ -11,7 +11,12 @@ class CustomerServiceImpl(CustomerService):
         self.data_source      = self.context.data_sources.add_pandas("customer_source")
         self.data_asset       = self.data_source.add_dataframe_asset("customers")
         self.batch_definition = self.data_asset.add_batch_definition_whole_dataframe("full_batch")    
-
+        # Create suite (GX 1.0: context.suites, not get_validator)
+        self.suite = self.context.suites.add(
+            gx.ExpectationSuite(name="customers_suite")
+        )
+        return self.suite
+    
     def validate_customer_data(self):
         
         self.customers = self.customer_repository.get_all_customers()   
