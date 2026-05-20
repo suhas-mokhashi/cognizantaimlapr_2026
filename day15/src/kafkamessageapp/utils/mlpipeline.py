@@ -7,7 +7,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, accuracy_score
-
+import matplotlib.pyplot as plt
 def create_pipeline(pizza_data):
     print("pipeie ready")
     # Define the features and target variable
@@ -34,12 +34,19 @@ def create_pipeline(pizza_data):
     print("Y predictions:", xtest["pizza_size"].values[:5], predictions[:5])
     
     #evaluate the model    
-    #mse = mean_squared_error(ytest, predictions)  
+    mse = mean_squared_error(ytest, predictions)  
    
-    #print(f"Mean Squared Error: {mse}")
+    print(f"Mean Squared Error: {mse}")
 
-    #print accuracy score
-   # print(f"Accuracy Score: {accuracy_score(ytest, predictions)}")
+    #plot the results
+    plt.scatter(xtest["pizza_size"], ytest, color="blue", label="Actual")
+    plt.scatter(xtest["pizza_size"], predictions, color="red", label="Predicted")
+    plt.xlabel("Pizza Size")
+    plt.ylabel("Pizza Rate")
+    plt.title("Actual vs Predicted Pizza Rate")
+    plt.legend()
+    plt.show()
+    
     
 
 
