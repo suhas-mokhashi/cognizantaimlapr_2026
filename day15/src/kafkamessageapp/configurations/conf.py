@@ -16,3 +16,4 @@ class KafkaConfig:
     db = client["customerdb"]
     pizza_path = os.getenv('pizza_path')
     report_path = os.getenv('report_path')
+    sweetviz_report_path = os.getenv('sweetviz_report_path')

@@ -1,17 +1,18 @@
 # Install first
 # pip install sweetviz
 
+from dacite import Config
 import pandas as pd
 import sweetviz as sv
-from linearalgebra.configurations.conf import Config
+from kafkamessageapp.configurations.conf import KafkaConfig
 from sklearn.model_selection import train_test_split
 
 # ── 1. Load data ──────────────────────────────────────────
-df = pd.read_csv(Config.customer_data_path)
+df = pd.read_csv(KafkaConfig.pizza_path)
 
 # ── 2. Basic report with target feature highlighted ───────
 report = sv.analyze(df, target_feat="churned")
-report.show_html("sweetviz_report.html")      # opens in browser automatically
+report.show_html(KafkaConfig.sweetviz_report_path)      # opens in browser automatically
 
 # ── 3. Train / test comparison ────────────────────────────
 train, test = train_test_split(df, test_size=0.2, random_state=42)
