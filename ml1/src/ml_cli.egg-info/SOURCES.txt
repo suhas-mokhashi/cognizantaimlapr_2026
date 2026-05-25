@@ -1,0 +1,7 @@
+pyproject.toml
+src/ml_cli.egg-info/PKG-INFO
+src/ml_cli.egg-info/SOURCES.txt
+src/ml_cli.egg-info/dependency_links.txt
+src/ml_cli.egg-info/requires.txt
+src/ml_cli.egg-info/top_level.txt
+src/mlapp/__init__.py

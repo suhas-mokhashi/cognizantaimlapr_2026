@@ -1,0 +1,41 @@
+patient_id,age,gender,medicine_name,medicine_type,before_fasting_sugar,before_pp_sugar,hba1c_before,after_fasting_sugar,after_pp_sugar,hba1c_after,recovery_days,weight_before_kg,weight_after_kg,bp_before,bp_after,exercise_minutes_per_day,diet_followed,recovery_speed
+P001,45,M,Metformin,Biguanide,182,265,8.9,128,178,7.1,72,84,80,145/92,130/84,35,Yes,Moderate
+P002,52,F,Insulin,Rapid Acting,240,320,10.5,145,198,7.9,48,76,73,150/96,132/86,45,Yes,Fast
+P003,60,M,Glimepiride,Sulfonylurea,210,298,9.7,158,220,8.0,90,88,85,148/94,136/88,20,No,Slow
+P004,38,F,Metformin,Biguanide,176,252,8.4,118,168,6.8,60,68,64,138/88,126/82,40,Yes,Fast
+P005,55,M,Sitagliptin,DPP4 Inhibitor,220,310,9.9,152,210,7.8,82,92,88,152/95,138/89,25,No,Moderate
+P006,47,F,Empagliflozin,SGLT2 Inhibitor,198,280,9.1,132,185,7.0,58,74,69,142/90,128/84,50,Yes,Fast
+P007,63,M,Insulin,Rapid Acting,260,350,11.2,168,240,8.5,44,95,90,160/100,140/90,30,Yes,Fast
+P008,41,F,Metformin,Biguanide,185,270,8.8,126,176,6.9,66,70,66,140/89,128/82,42,Yes,Moderate
+P009,58,M,Pioglitazone,Thiazolidinedione,215,300,9.5,160,225,8.2,95,90,88,150/94,138/88,18,No,Slow
+P010,49,F,Glipizide,Sulfonylurea,205,290,9.0,142,198,7.4,74,80,76,145/90,132/85,36,Yes,Moderate
+P011,53,M,Metformin,Biguanide,190,275,8.7,125,172,6.7,63,85,81,146/92,129/84,40,Yes,Fast
+P012,44,F,Empagliflozin,SGLT2 Inhibitor,200,285,9.2,134,182,7.1,57,72,67,144/91,127/83,48,Yes,Fast
+P013,67,M,Insulin,Rapid Acting,255,340,10.9,170,235,8.6,50,98,93,162/102,142/91,25,Yes,Moderate
+P014,39,F,Sitagliptin,DPP4 Inhibitor,178,260,8.5,122,170,6.9,68,69,65,139/88,126/81,44,Yes,Fast
+P015,61,M,Glimepiride,Sulfonylurea,225,315,10.0,165,230,8.3,92,91,89,154/96,140/90,20,No,Slow
+P016,50,F,Metformin,Biguanide,188,272,8.6,124,174,6.8,61,77,73,143/90,128/83,41,Yes,Fast
+P017,56,M,Pioglitazone,Thiazolidinedione,218,305,9.6,158,220,8.1,88,89,87,151/95,137/88,22,No,Moderate
+P018,43,F,Insulin,Rapid Acting,235,325,10.3,148,205,7.7,46,73,69,149/94,133/86,47,Yes,Fast
+P019,59,M,Empagliflozin,SGLT2 Inhibitor,210,295,9.4,140,192,7.2,64,93,88,148/93,132/85,38,Yes,Moderate
+P020,46,F,Glipizide,Sulfonylurea,202,288,9.0,145,200,7.5,76,75,72,144/90,131/84,34,Yes,Moderate
+P021,57,M,Metformin,Biguanide,195,278,8.8,127,175,6.9,62,86,82,147/92,130/84,39,Yes,Fast
+P022,42,F,Sitagliptin,DPP4 Inhibitor,182,264,8.5,124,171,6.8,69,71,67,140/88,127/82,43,Yes,Fast
+P023,64,M,Insulin,Rapid Acting,250,345,11.0,172,238,8.7,52,96,91,161/101,143/92,27,Yes,Moderate
+P024,48,F,Empagliflozin,SGLT2 Inhibitor,198,282,9.1,136,186,7.0,59,78,73,145/91,129/84,46,Yes,Fast
+P025,62,M,Glimepiride,Sulfonylurea,228,318,10.2,168,234,8.4,94,92,89,155/97,141/90,19,No,Slow
+P026,37,F,Metformin,Biguanide,174,250,8.3,118,166,6.7,58,66,62,137/87,125/80,45,Yes,Fast
+P027,54,M,Pioglitazone,Thiazolidinedione,216,302,9.5,156,218,8.0,87,90,87,150/95,137/88,21,No,Moderate
+P028,45,F,Insulin,Rapid Acting,238,328,10.4,150,208,7.8,47,74,70,148/93,132/85,49,Yes,Fast
+P029,58,M,Empagliflozin,SGLT2 Inhibitor,208,292,9.3,138,190,7.1,63,91,86,147/92,131/84,37,Yes,Moderate
+P030,40,F,Glipizide,Sulfonylurea,200,286,8.9,144,198,7.4,75,73,70,143/89,130/83,35,Yes,Moderate
+P031,52,M,Metformin,Biguanide,192,276,8.7,126,173,6.8,60,84,80,146/91,129/83,40,Yes,Fast
+P032,47,F,Sitagliptin,DPP4 Inhibitor,184,268,8.6,123,169,6.7,67,76,72,141/89,127/82,42,Yes,Fast
+P033,66,M,Insulin,Rapid Acting,258,348,11.1,171,236,8.5,49,97,92,162/102,142/91,26,Yes,Moderate
+P034,43,F,Empagliflozin,SGLT2 Inhibitor,197,281,9.0,133,184,7.0,56,72,67,144/90,128/83,48,Yes,Fast
+P035,60,M,Glimepiride,Sulfonylurea,222,312,9.9,164,228,8.2,91,90,88,153/96,139/89,20,No,Slow
+P036,38,F,Metformin,Biguanide,176,254,8.4,119,167,6.7,57,67,63,138/87,126/81,46,Yes,Fast
+P037,55,M,Pioglitazone,Thiazolidinedione,214,300,9.4,155,216,7.9,85,88,85,149/94,136/87,23,No,Moderate
+P038,49,F,Insulin,Rapid Acting,236,326,10.3,149,206,7.7,45,79,75,147/92,131/85,50,Yes,Fast
+P039,63,M,Empagliflozin,SGLT2 Inhibitor,209,294,9.3,139,191,7.1,62,94,89,148/93,132/85,36,Yes,Moderate
+P040,44,F,Glipizide,Sulfonylurea,201,287,8.9,143,197,7.3,73,74,71,143/89,130/83,34,Yes,Moderate

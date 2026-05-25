@@ -1,0 +1,21 @@
+#access .env variables
+import os
+from dotenv import load_dotenv
+env_path = os.path.join(os.path.dirname(__file__), '..', '.env')
+load_dotenv(env_path)
+class Config:
+    def __init__(self):
+        self.csv_path = os.getenv('csv_path')
+        self.api_requests_csv_path = os.getenv('api_requests_csv_path')
+        self.delivery_time_csv_path = os.getenv('delivery_time_csv_path')   
+        self.sip_path = os.getenv('sip_path')
+        self.uniform_path = os.getenv('uniform_path')
+        self.bernoulli_path = os.getenv('bernoulli_path')
+        self.binomial_path = os.getenv('binomial_path')
+        self.poisson_path = os.getenv('poisson_path')
+        self.exponential_path = os.getenv('exponential_path')
+        self.estimation_path = os.getenv('estimation_path')
+        self.effectiveness_path = os.getenv('effectiveness_path')
+        self.hypothesis_path = os.getenv('hypothesis_path')
+        self.fraud_path = os.getenv('fraud_path')
+        self.mobile_drift_path = os.getenv('mobile_drift_path')

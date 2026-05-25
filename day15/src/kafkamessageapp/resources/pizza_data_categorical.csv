@@ -1,0 +1,101 @@
+pizza_type,size_label,crust_type,order_source,pizza_size,pizza_rate
+Pepperoni,Small,Thick,Online,14,730
+Hawaiian,Large,Thin,Online,19,238
+BBQ Chicken,Medium,Thin,Online,6,325
+BBQ Chicken,Large,Stuffed,Phone,6,650
+Margherita,XL,Thick,Phone,19,372
+Margherita,Medium,Thin,Walk-in,9,419
+Margherita,Medium,Thin,Online,14,257
+Veggie,Large,Thick,Online,11,675
+BBQ Chicken,Medium,Thin,Phone,18,655
+BBQ Chicken,Small,Thin,Online,16,560
+Margherita,Medium,Thick,Online,8,200
+Hawaiian,Medium,Thick,Online,6,586
+Veggie,XL,Thick,Online,9,547
+Margherita,Large,Thin,Walk-in,17,389
+Margherita,Large,Thick,Walk-in,18,704
+Margherita,XL,Thin,Phone,14,390
+Pepperoni,Large,Thin,Online,8,707
+Pepperoni,Medium,Thick,Online,17,568
+Pepperoni,XL,Thick,Online,14,608
+Margherita,Large,Stuffed,Online,12,316
+BBQ Chicken,Large,Thick,Online,17,333
+Margherita,XL,Thick,Phone,19,257
+Margherita,Medium,Thin,Phone,20,755
+Pepperoni,Small,Thin,Online,9,372
+Pepperoni,Medium,Thin,Walk-in,8,348
+Veggie,Medium,Thin,Phone,15,279
+Margherita,Large,Stuffed,Phone,20,412
+Pepperoni,XL,Thin,Phone,10,402
+BBQ Chicken,Small,Stuffed,Online,10,428
+Margherita,Large,Thick,Online,8,426
+BBQ Chicken,Medium,Stuffed,Online,17,731
+Margherita,Medium,Thick,Phone,14,640
+Margherita,Small,Thick,Online,9,601
+Hawaiian,Medium,Thick,Online,16,246
+Hawaiian,XL,Thin,Online,10,432
+Veggie,Medium,Thick,Online,9,504
+Pepperoni,Large,Thin,Walk-in,10,725
+Margherita,Large,Thin,Phone,12,342
+BBQ Chicken,Medium,Thick,Online,14,614
+Pepperoni,XL,Thin,Online,12,712
+Margherita,XL,Stuffed,Online,18,572
+Pepperoni,Medium,Stuffed,Online,10,765
+Margherita,Medium,Stuffed,Online,15,458
+Hawaiian,Medium,Thin,Online,15,670
+Margherita,Medium,Thin,Online,12,211
+BBQ Chicken,Small,Stuffed,Phone,19,529
+Pepperoni,Large,Thick,Phone,20,557
+Pepperoni,Large,Stuffed,Online,15,607
+Pepperoni,Small,Stuffed,Online,10,572
+Margherita,Medium,Stuffed,Phone,8,207
+Hawaiian,XL,Thin,Online,12,321
+Veggie,Medium,Thin,Walk-in,18,547
+Hawaiian,Small,Stuffed,Phone,16,289
+Veggie,Medium,Thin,Online,16,515
+BBQ Chicken,XL,Thin,Online,7,377
+Hawaiian,Medium,Thick,Phone,20,739
+Margherita,Large,Stuffed,Online,17,240
+Margherita,Large,Thick,Phone,14,701
+Margherita,Medium,Thick,Walk-in,15,344
+Pepperoni,Large,Thin,Phone,15,400
+Pepperoni,Medium,Thick,Online,17,660
+Margherita,Large,Stuffed,Phone,6,757
+Veggie,Large,Thin,Online,18,746
+Pepperoni,Large,Thick,Online,11,452
+Margherita,Small,Stuffed,Walk-in,12,589
+Pepperoni,Large,Thick,Online,19,793
+Margherita,Medium,Thick,Walk-in,18,455
+Veggie,Medium,Thick,Walk-in,13,649
+Margherita,Small,Thin,Online,15,209
+Hawaiian,Large,Thin,Online,14,441
+Veggie,Large,Stuffed,Online,7,450
+Margherita,Small,Stuffed,Online,16,204
+Margherita,Large,Stuffed,Online,15,318
+Veggie,Medium,Stuffed,Phone,7,573
+BBQ Chicken,Large,Thick,Online,10,264
+BBQ Chicken,Medium,Thick,Online,18,345
+Veggie,Large,Stuffed,Walk-in,10,423
+Margherita,Medium,Thick,Online,11,438
+Pepperoni,XL,Thick,Walk-in,8,376
+Margherita,Small,Stuffed,Online,13,481
+Veggie,Medium,Stuffed,Online,18,262
+BBQ Chicken,Small,Thin,Phone,6,416
+Pepperoni,XL,Thin,Phone,11,660
+Margherita,XL,Thin,Walk-in,9,304
+Pepperoni,Medium,Thick,Phone,6,298
+Pepperoni,Large,Thin,Walk-in,20,710
+BBQ Chicken,Large,Thick,Online,12,584
+BBQ Chicken,Large,Thick,Online,14,604
+Veggie,Large,Thin,Phone,18,717
+Pepperoni,Medium,Thick,Walk-in,9,675
+Margherita,Small,Thin,Walk-in,9,636
+BBQ Chicken,XL,Thin,Online,11,222
+Veggie,XL,Stuffed,Online,17,764
+BBQ Chicken,Large,Thin,Phone,20,657
+Veggie,Medium,Thin,Online,8,282
+Pepperoni,Medium,Thick,Walk-in,18,344
+Pepperoni,Large,Stuffed,Walk-in,17,284
+Pepperoni,XL,Thin,Online,11,277
+Margherita,XL,Thick,Phone,12,656
+Margherita,Large,Thin,Phone,16,200

@@ -1,0 +1,51 @@
+product_id,product_name,people_searched,people_bought,conversion_rate_percent
+1,Wireless Mouse,4148,101,2.43
+2,Gaming Keyboard,9512,2056,21.61
+3,Bluetooth Speaker,7814,621,7.95
+4,USB-C Charger,3858,1435,37.2
+5,Laptop Stand,18370,1474,8.02
+6,Smart Watch,19849,6962,35.07
+7,Noise Cancelling Headphones,1541,80,5.19
+8,Phone Case,3570,497,13.92
+9,Mechanical Keyboard,8123,2119,26.09
+10,LED Monitor,1369,624,45.58
+11,Webcam HD,7015,2982,42.51
+12,Portable SSD,18356,6923,37.72
+13,Fitness Tracker,7723,1889,24.46
+14,Smartphone,19809,4607,23.26
+15,Tablet,712,131,18.4
+16,Wireless Earbuds,14348,2837,19.77
+17,Office Chair,9605,1323,13.77
+18,Gaming Laptop,7555,3177,42.05
+19,External Hard Drive,11529,887,7.69
+20,Power Bank,3539,828,23.4
+21,Coffee Maker,3669,785,21.4
+22,Air Fryer,11770,4995,42.44
+23,Vacuum Cleaner,9167,405,4.42
+24,Water Bottle,15554,4442,28.56
+25,Running Shoes,4590,1600,34.86
+26,Backpack,3082,1180,38.29
+27,Desk Lamp,10106,3012,29.8
+28,Printer,19418,3200,16.48
+29,Graphic Tablet,2779,143,5.15
+30,Microphone,7967,3216,40.37
+31,Router,9982,703,7.04
+32,Action Camera,8128,3599,44.28
+33,Drone Camera,3809,828,21.74
+34,Electric Toothbrush,9608,3764,39.18
+35,Hair Dryer,12454,1382,11.1
+36,Smart TV,12630,2960,23.44
+37,Streaming Device,7365,2795,37.95
+38,Projector,9248,634,6.86
+39,Cookware Set,6107,2237,36.63
+40,Refrigerator,8521,1388,16.29
+41,Washing Machine,15647,3158,20.18
+42,Bluetooth Tracker,9345,4612,49.35
+43,Digital Camera,7696,2854,37.08
+44,Tripod Stand,11126,508,4.57
+45,Yoga Mat,8005,3416,42.67
+46,Treadmill,1551,373,24.05
+47,Cycling Helmet,13645,2243,16.44
+48,Gaming Console,2668,482,18.07
+49,VR Headset,19085,5205,27.27
+50,Smart Home Hub,7467,2734,36.61
