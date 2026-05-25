@@ -32,7 +32,7 @@ print(corr.sort_values(ascending=False))
 
 # feature selection
 selected_features = (
-    corr[abs(corr) > 0.05]
+    corr[corr > 0.05]
     .index
     .tolist()
 )

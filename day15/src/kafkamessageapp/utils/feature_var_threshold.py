@@ -30,10 +30,13 @@ print("\nColumns before feature selection:")
 print(X.columns.tolist())
 
 # Apply Variance Threshold
-selector = VarianceThreshold(threshold=0.01)
+selector = VarianceThreshold(threshold=1)
 
+print("\nApplying Variance Threshold...")
+print("Variance Threshold:", selector.threshold)
 X_selected = selector.fit_transform(X)
 
+print("\nVariance Threshold applied. Number of features selected:", X_selected.shape[1])
 selected_columns = X.columns[
     selector.get_support()
 ]
