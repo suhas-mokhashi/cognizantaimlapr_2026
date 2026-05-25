@@ -1,6 +1,7 @@
 #batch inferences using reviews.csv and transformer model
 import pandas as pd
 from transformers import pipeline
+from mlapp.configurations.conf import Config
 
 def batch_inference(reviews_csv):
     # Load the reviews from the CSV file
@@ -18,3 +19,8 @@ def batch_inference(reviews_csv):
     #confidence scores
     reviews_df['confidence'] = [result['score'] for result in results]
     return reviews_df
+
+if __name__ == "__main__":
+    reviews_csv = Config.REVIEW_PATH  # Path to your reviews CSV file
+    results_df = batch_inference(reviews_csv)
+    print(results_df.head())
