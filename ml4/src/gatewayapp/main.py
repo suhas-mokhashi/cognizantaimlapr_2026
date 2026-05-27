@@ -1,5 +1,6 @@
 import httpx
 from itertools import cycle
+import json
 
 import consul
 from fastapi import FastAPI, HTTPException, Request, Response
@@ -87,22 +88,22 @@ async def forward_request(
 ):
     target_url = f"{service_url}/{resource}"
 
-    print("Forwarding request to:", target_url)
+    try:
+        request_body = await request.json()
+    except json.JSONDecodeError:
+        request_body = {}
+
+    request_body["order_id"] = order_id
 
     async with httpx.AsyncClient() as client:
-        #order id should be part of the http body, 
-        # not the url, since the gateway is forwarding the request to the service, and the service should be responsible for handling the order id
         response = await client.request(
             method=request.method,
             url=target_url,
-            data={
-                "order_id": order_id
-            },            
-            content=await request.body(),
+            json=request_body,
             headers={
                 key: value
                 for key, value in request.headers.items()
-                if key.lower() != "host"
+                if key.lower() not in ["host", "content-length"]
             }
         )
 
