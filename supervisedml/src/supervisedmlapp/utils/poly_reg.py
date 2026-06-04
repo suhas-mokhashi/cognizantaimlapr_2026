@@ -1,6 +1,6 @@
 #create polynomial regression model for the population dataset
 import os
-from pandas import pd
+import pandas as pd
 from sklearn.model_selection import train_test_split
 from supervisedmlapp.configurations.conf import POPULATION_FILE_PATH
 from sklearn.preprocessing import PolynomialFeatures
@@ -43,3 +43,5 @@ def polynomial_regression_model():
     print(f'Mean Squared Error: {mse}')
     print(f'R^2 Score: {r2}')
 
+if __name__ == "__main__":
+    polynomial_regression_model()
