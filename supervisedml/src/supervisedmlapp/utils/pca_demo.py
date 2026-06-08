@@ -47,30 +47,21 @@ def pca_analysis():
     pca = PCA(n_components=2)  # Reduce to 2 principal components for visualization
     X_pca = pca.fit_transform(X_scaled) 
     #print principal components
+    #computing correlated values
     print("Principal Components:")
     print(X_pca[:5])
     #need how to arrive at the principal components from the original features    
+
     print("PCA Components column name and values:") 
     for i, component in enumerate(pca.components_):
         print(f"Principal Component {i+1}:")
         for feature, value in zip(X.columns, component):
-            print(f"  {feature}: {value}")
-    
+            print(f"  {feature}: {value}") 
 
 
 
 
-    # Create a DataFrame for the PCA results
-    pca_df = pd.DataFrame(data=X_pca, columns=['Principal Component 1', 'Principal Component 2'])
-    pca_df['QualityClass'] = y  # Add the target variable for coloring
-    # Visualize the PCA results
-    plt.figure(figsize=(10, 6))
-    scatter = plt.scatter(pca_df['Principal Component 1'], pca_df['Principal Component 2'], c=pca_df['QualityClass'], cmap='viridis')    
-    plt.title('PCA of T-Shirt Quality Data')
-    plt.xlabel('Principal Component 1')
-    plt.ylabel('Principal Component 2')
-    plt.colorbar(scatter, label='QualityClass')
-    plt.show()
+   
 
 
 if __name__ == "__main__":
