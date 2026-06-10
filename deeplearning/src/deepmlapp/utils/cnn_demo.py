@@ -29,3 +29,38 @@ plt.savefig('original_image.png')
 plt.title("Original Image")
 plt.axis('off')
 plt.show()
+
+# Add batch dimension
+image = tf.expand_dims(image, axis=0)
+'''
+Define Convolution Kernel
+We define an edge detection filter (Laplacian kernel) to extract important image features.
+'''
+
+
+kernel = tf.constant([
+    [-1, -1, -1],
+    [-1,  8, -1],
+    [-1, -1, -1]
+], dtype=tf.float32)
+
+kernel = tf.reshape(kernel, [3, 3, 1, 1])
+
+conv_output = tf.nn.conv2d(
+    input=image,
+    filters=kernel,
+    strides=[1, 1, 1, 1],
+    padding='SAME'
+)
+'''
+Apply COnvolution Layer
+The convolution layer applies the filter to the image to detect edges and features.
+'''
+print("After Convolution Shape:", conv_output.shape)
+
+plt.figure(figsize=(5,5))
+plt.imshow(tf.squeeze(conv_output))
+plt.title("After Convolution")
+plt.axis('off')
+plt.savefig('after_convolution.png')
+plt.show()
