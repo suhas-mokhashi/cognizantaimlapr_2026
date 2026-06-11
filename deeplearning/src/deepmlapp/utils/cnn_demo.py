@@ -22,7 +22,9 @@ image = tf.image.resize(image, [300, 300])
 image = tf.image.convert_image_dtype(image, tf.float32)
 
 print("Original Image Shape:", image.shape)
-
+'''
+plot the original image to visualize it before applying any transformations. This helps us understand the input data and the effects of subsequent operations.
+'''
 plt.figure(figsize=(5,5))
 plt.imshow(tf.squeeze(image))
 plt.savefig('original_image.png')
